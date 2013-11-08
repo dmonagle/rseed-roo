@@ -1,3 +1,4 @@
+require "rseed"
 require "rseed/roo/version"
 require "rseed/roo/roo_adapter"
 require "rseed/roo/helpers"

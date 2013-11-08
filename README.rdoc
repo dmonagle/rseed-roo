@@ -1,0 +1,24 @@
+# Rseed::Roo
+
+This is an adapter for the Rseed gem http://github.com/intrica/rseed
+
+The RooAdapter allows you to import excel files using rseed.
+
+## Installation
+
+Add this line to your application's Gemfile:
+
+    gem 'rseed-roo'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install rseed-roo
+
+## Usage
+
+The Roo adapter takes the same parameters as the CSV adapter that is built into Rseed. It also provides a *from_exel*
+helper that works just like the from_csv helper in Rseed.

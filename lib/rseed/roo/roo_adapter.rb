@@ -58,7 +58,7 @@ module Rseed
 
       converter_attributes.each do |attribute|
         if headers[attribute.name].nil?
-          unless mapping[:optional]
+          unless attribute.options[:optional]
             @missing_headers_mandatory << attribute.name
           else
             @missing_headers_optional << attribute.name
